@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Попап на чистом JS</title>
+    <link rel="stylesheet" href="D:/knopka/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <a href="#" class="open-popup">Кликни</a>
+    </div>
+
+    <div class="popup__bg">
+        <form class="popup">
+            <svg class="close-popup" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="red" d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+            <label>
+
+                <div class="label__text">
+                    <h1>Получите набор файлов для руководителя:</h1>
+                </div>
+            </label>
+
+            <label>
+                <input type="tel" name="tel" class="_req _email">
+                <div class="label__text">
+                   Введите E-mail для получения файлов:
+                </div>
+            </label>
+
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+                    Введите телефон для подтверждения доступа:
+                </div>
+            </label>
+
+            <button type="submit">Скачать файлы</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
